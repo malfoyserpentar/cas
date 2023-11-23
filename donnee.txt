@@ -1,0 +1,20 @@
+!--------------------------------------------------- Données en USI ----------------------------------------------------!
+0.01		Epaisseur
+1		Alpha
+1		Teneur en eau initiale
+0.3		Teneur en eau à Saturation
+500		Masse_volumique
+9.81		Gravité
+0.018 	Masse Molaire
+8.3143	R - Constante des Gazs Parfaits
+2		Vitesse de l'air ambiant
+70		Temperature de l'air ambiant (°C)
+0.3 	Humidité relative de l'air ambiant
+1d-8		Dzz
+1	Pas de Temps
+10   Temps de l'expérimentation 
+10    Temps d'écriture
+1		Beta
+11		Selon x 
+11	    Selon z
+47.2		Température Humide (°C)
