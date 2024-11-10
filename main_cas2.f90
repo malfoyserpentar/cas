@@ -74,8 +74,6 @@ PROGRAM cas2
     PRINT*,"                            Calculs Scientifiques II : "
     PRINT*,"   SIMULATION DU TRANSPORT D'HUMIDITE EN MILIEU POREUX LORS D'UN SECHAGE CONVECTIF"
     PRINT*,'-------------------------------------------------------------------------------------'
-    PRINT*,"                     Codé par Ibrahim FSEIL et Erwan BENHENOU"
-    PRINT*,"                               ENSGTI - PROMO 2024 "
     PRINT*,""
     PRINT*,"CLIQUER ENTRER"
     READ(*,*)
@@ -677,8 +675,7 @@ SUBROUTINE calcul_gauss(n,ag,x)
     
 END SUBROUTINE calcul_gauss
 
-!CAS 1 - Stéphane GIBOUT
-!MODELISATION THERMODYNAMIQUE I - Elodie LE GUEN & Erwan BENHENOU
+!CAS 1
 SUBROUTINE DECOMPO_LU(matrice_entree,n,matrice_l,matrice_u)
     INTEGER,INTENT(IN):: n
     DOUBLE PRECISION, DIMENSION(n,n),INTENT(IN) ::matrice_entree
